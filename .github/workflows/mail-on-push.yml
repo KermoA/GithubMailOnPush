@@ -11,5 +11,5 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Send mail
           body: "New Commit to Repo ${{ github.repository }} From ${{ github.event.pusher.name }}"
-          to: kermoanijarv@gmail.com
+          to:
           from: "Github Actions"
