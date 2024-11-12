@@ -13,6 +13,6 @@ jobs:
           subject: "Send Mail"
           body: |
             New Commit to Repo ${{ github.repository }} From ${{ github.event.pusher.name }}
-          to: kermoanijarv@gmail.com
+          to: jyri.vaitmaa@tthk.ee
           from: "GitHub Actions"
 
